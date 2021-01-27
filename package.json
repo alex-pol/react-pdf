@@ -1,6 +1,6 @@
 {
-  "name": "react-pdf",
-  "version": "5.1.0",
+  "name": "@aleksandrpol/react-pdf",
+  "version": "5.2.0",
   "description": "Display PDFs in your React app as easily as if they were images.",
   "main": "dist/umd/entry.js",
   "module": "dist/esm/entry.js",
@@ -39,48 +39,6 @@
     "pdf",
     "pdf-viewer",
     "react"
-  ],
-  "author": {
-    "name": "Wojciech Maj",
-    "email": "kontakt@wojtekmaj.pl"
-  },
-  "contributors": [
-    {
-      "name": "Anenth",
-      "email": "anenthvishnu@gmail.com"
-    },
-    {
-      "name": "Artur Termenji",
-      "email": "atermenji@gmail.com"
-    },
-    {
-      "name": "Bart Van Houtte",
-      "email": "bart.van.houtte@ading.be"
-    },
-    {
-      "name": "Felipe Lacerda",
-      "email": "fegolac@gmail.com"
-    },
-    {
-      "name": "Julia Kieserman",
-      "email": "kieserman.julia@gmail.com"
-    },
-    {
-      "name": "Lucas Simkins",
-      "email": "lucas.simkins@gmail.com"
-    },
-    {
-      "name": "Niklas Närhinen",
-      "email": "niklas@narhinen.net"
-    },
-    {
-      "name": "Robert Scott",
-      "email": "rs@robsco.info"
-    },
-    {
-      "name": "Thomas McCarthy",
-      "email": "tom@tomm.cc"
-    }
   ],
   "license": "MIT",
   "dependencies": {
@@ -123,7 +81,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/wojtekmaj/react-pdf.git"
-  },
-  "funding": "https://github.com/wojtekmaj/react-pdf?sponsor=1"
+    "url": "https://github.com/alex-pol/react-pdf.git"
+  }
 }
