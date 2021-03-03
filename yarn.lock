@@ -5,40 +5,6 @@ __metadata:
   version: 4
   cacheKey: 7
 
-"@alex-pol/react-pdf@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@alex-pol/react-pdf@workspace:."
-  dependencies:
-    "@babel/cli": ^7.8.0
-    "@babel/core": ^7.9.0
-    "@babel/plugin-proposal-class-properties": ^7.8.0
-    "@babel/plugin-transform-runtime": ^7.9.0
-    "@babel/preset-env": ^7.9.0
-    "@babel/preset-react": ^7.9.0
-    "@babel/runtime": ^7.0.0
-    "@wojtekmaj/enzyme-adapter-react-17": ^0.3.1
-    babel-eslint: ^10.0.0
-    enzyme: ^3.10.0
-    eslint: ^7.12.0
-    eslint-config-wojtekmaj: ^0.5.0
-    jest: ^26.6.0
-    make-cancellable-promise: ^1.0.0
-    make-event-props: ^1.1.0
-    merge-class-names: ^1.1.1
-    merge-refs: ^1.0.0
-    pdfjs-dist: 2.6.347
-    prop-types: ^15.6.2
-    react: ^17.0.0
-    react-dom: ^17.0.0
-    rimraf: ^3.0.0
-    webpack: ^5.4.0
-    worker-loader: ^3.0.0
-  peerDependencies:
-    react: ^16.3.0 || ^17.0.0-0
-    react-dom: ^16.3.0 || ^17.0.0-0
-  languageName: unknown
-  linkType: soft
-
 "@babel/cli@npm:^7.8.0":
   version: 7.8.4
   resolution: "@babel/cli@npm:7.8.4"
@@ -1639,6 +1605,40 @@ __metadata:
   checksum: 5c511d7807f414b298299ae4a053abf265f39984942e0eefdfb17a7986a36f1047e0fd9a6f785bdddbf7343a5737595dfabe148719a80e118dd77486502009cc
   languageName: node
   linkType: hard
+
+"@monite/react-pdf@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@monite/react-pdf@workspace:."
+  dependencies:
+    "@babel/cli": ^7.8.0
+    "@babel/core": ^7.9.0
+    "@babel/plugin-proposal-class-properties": ^7.8.0
+    "@babel/plugin-transform-runtime": ^7.9.0
+    "@babel/preset-env": ^7.9.0
+    "@babel/preset-react": ^7.9.0
+    "@babel/runtime": ^7.0.0
+    "@wojtekmaj/enzyme-adapter-react-17": ^0.3.1
+    babel-eslint: ^10.0.0
+    enzyme: ^3.10.0
+    eslint: ^7.12.0
+    eslint-config-wojtekmaj: ^0.5.0
+    jest: ^26.6.0
+    make-cancellable-promise: ^1.0.0
+    make-event-props: ^1.1.0
+    merge-class-names: ^1.1.1
+    merge-refs: ^1.0.0
+    pdfjs-dist: 2.7.570
+    prop-types: ^15.6.2
+    react: ^17.0.0
+    react-dom: ^17.0.0
+    rimraf: ^3.0.0
+    webpack: ^5.4.0
+    worker-loader: ^3.0.0
+  peerDependencies:
+    react: ^16.3.0 || ^17.0.0-0
+    react-dom: ^16.3.0 || ^17.0.0-0
+  languageName: unknown
+  linkType: soft
 
 "@sinonjs/commons@npm:^1.7.0":
   version: 1.7.1
@@ -6803,10 +6803,12 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"pdfjs-dist@npm:2.6.347":
-  version: 2.6.347
-  resolution: "pdfjs-dist@npm:2.6.347"
-  checksum: 64007e9fce35be3d9e8a2d106bdcd350cd71df4f4fe99a94adbdb4ee662ce1e84abfe0feff38d6cfa94fa79a291cfe96f1efd874e8417c52d7ab753d2046bf26
+"pdfjs-dist@npm:2.7.570":
+  version: 2.7.570
+  resolution: "pdfjs-dist@npm:2.7.570"
+  peerDependencies:
+    worker-loader: ^3.0.7
+  checksum: ad7b4dfc03f0172ce1e82352d187b67ac0ba4d658c0a23a9088bd6eebe3e4e95ad48a99ec85bb6ea5fee3d88d3bc755ac77c68691e04ea0161adfa85cc299017
   languageName: node
   linkType: hard
 

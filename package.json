@@ -1,10 +1,11 @@
 {
-  "name": "@aleksandrpol/react-pdf",
+  "name": "@monite/react-pdf",
   "version": "5.2.0",
   "description": "Display PDFs in your React app as easily as if they were images.",
   "main": "dist/umd/entry.js",
   "module": "dist/esm/entry.js",
   "source": "src/entry.js",
+  "types": "./types/index.d.ts",
   "scripts": {
     "build": "yarn build-js-all && yarn copy-styles",
     "build-js-all": "yarn build-js-esm && yarn build-js-umd",
@@ -47,7 +48,7 @@
     "make-event-props": "^1.1.0",
     "merge-class-names": "^1.1.1",
     "merge-refs": "^1.0.0",
-    "pdfjs-dist": "2.6.347",
+    "pdfjs-dist": "2.7.570",
     "prop-types": "^15.6.2",
     "worker-loader": "^3.0.0"
   },
