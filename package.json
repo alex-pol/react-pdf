@@ -1,6 +1,6 @@
 {
   "name": "@monite/react-pdf",
-  "version": "5.2.0",
+  "version": "5.2.1",
   "description": "Display PDFs in your React app as easily as if they were images.",
   "main": "dist/umd/entry.js",
   "module": "dist/esm/entry.js",
